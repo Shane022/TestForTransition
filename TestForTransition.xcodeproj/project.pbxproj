@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		342C97EC24A055B000936431 /* NSArray+ArrayDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C97EB24A055B000936431 /* NSArray+ArrayDescription.m */; };
 		34EB4B1F249C9DA60038007B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EB4B1E249C9DA60038007B /* AppDelegate.m */; };
 		34EB4B22249C9DA60038007B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EB4B21249C9DA60038007B /* SceneDelegate.m */; };
 		34EB4B25249C9DA60038007B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EB4B24249C9DA60038007B /* ViewController.m */; };
@@ -16,6 +17,8 @@
 		34EB4B30249C9DAA0038007B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EB4B2F249C9DAA0038007B /* main.m */; };
 		34EB4B3A249C9DAA0038007B /* TestForTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EB4B39249C9DAA0038007B /* TestForTransitionTests.m */; };
 		34EB4B45249C9DAA0038007B /* TestForTransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EB4B44249C9DAA0038007B /* TestForTransitionUITests.m */; };
+		34EB4B57249C9DF60038007B /* SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EB4B56249C9DF60038007B /* SecondController.m */; };
+		34EB4B5A249CA3BE0038007B /* Animator.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EB4B59249CA3BE0038007B /* Animator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		342C97EA24A055B000936431 /* NSArray+ArrayDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+ArrayDescription.h"; sourceTree = "<group>"; };
+		342C97EB24A055B000936431 /* NSArray+ArrayDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ArrayDescription.m"; sourceTree = "<group>"; };
 		34EB4B1A249C9DA60038007B /* TestForTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34EB4B1D249C9DA60038007B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34EB4B1E249C9DA60038007B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +59,10 @@
 		34EB4B40249C9DAA0038007B /* TestForTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestForTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34EB4B44249C9DAA0038007B /* TestForTransitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestForTransitionUITests.m; sourceTree = "<group>"; };
 		34EB4B46249C9DAA0038007B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34EB4B55249C9DF60038007B /* SecondController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondController.h; sourceTree = "<group>"; };
+		34EB4B56249C9DF60038007B /* SecondController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondController.m; sourceTree = "<group>"; };
+		34EB4B58249CA3BE0038007B /* Animator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animator.h; sourceTree = "<group>"; };
+		34EB4B59249CA3BE0038007B /* Animator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +124,12 @@
 				34EB4B2B249C9DAA0038007B /* LaunchScreen.storyboard */,
 				34EB4B2E249C9DAA0038007B /* Info.plist */,
 				34EB4B2F249C9DAA0038007B /* main.m */,
+				34EB4B55249C9DF60038007B /* SecondController.h */,
+				34EB4B56249C9DF60038007B /* SecondController.m */,
+				34EB4B58249CA3BE0038007B /* Animator.h */,
+				34EB4B59249CA3BE0038007B /* Animator.m */,
+				342C97EA24A055B000936431 /* NSArray+ArrayDescription.h */,
+				342C97EB24A055B000936431 /* NSArray+ArrayDescription.m */,
 			);
 			path = TestForTransition;
 			sourceTree = "<group>";
@@ -269,6 +284,9 @@
 			files = (
 				34EB4B25249C9DA60038007B /* ViewController.m in Sources */,
 				34EB4B1F249C9DA60038007B /* AppDelegate.m in Sources */,
+				34EB4B5A249CA3BE0038007B /* Animator.m in Sources */,
+				342C97EC24A055B000936431 /* NSArray+ArrayDescription.m in Sources */,
+				34EB4B57249C9DF60038007B /* SecondController.m in Sources */,
 				34EB4B30249C9DAA0038007B /* main.m in Sources */,
 				34EB4B22249C9DA60038007B /* SceneDelegate.m in Sources */,
 			);
